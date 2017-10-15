@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "babel-cli": "6.5.1",
+    "babel-preset-es2015": "6.5.0",
+    "babel-preset-react": "6.5.0"
+  },
+  "scripts": {
+    "build": "babel hello.js -o hello.babelized.js",
+    "build1": "babel textbox.js -o textbox.babelized.js",
+    "build2": "babel components.js -o components.babelized.js"
+  }
+}
